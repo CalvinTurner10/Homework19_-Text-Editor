@@ -22,7 +22,7 @@ module.exports = () => {
         template: './index.html',
         title: 'J.A.T.E'
       }),
-      new WebpackPwaManifest({
+      new InjectManifest({
         fingerprints: false,
         inject:true,
         name: ' Text Editor',
