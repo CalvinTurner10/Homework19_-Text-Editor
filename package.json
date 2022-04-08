@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "server-js": "^0.1.4"
+  },
+  "name": "homework19_-text-editor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalvinTurner10/Homework19_-Text-Editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CalvinTurner10/Homework19_-Text-Editor/issues"
+  },
+  "homepage": "https://github.com/CalvinTurner10/Homework19_-Text-Editor#readme",
+  "description": "",
+  "devDependencies": {
+    "icons-loader": "^0.0.6",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
