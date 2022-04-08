@@ -23,6 +23,11 @@ module.exports = () => {
         title: 'J.A.T.E'
       }),
       new InjectManifest({
+        swSrc: './src-sw.js',
+        wDest: 'src-sw.js',
+      }),
+
+      new WebpackPwaManifest({
         fingerprints: false,
         inject:true,
         name: ' Text Editor',
@@ -41,9 +46,6 @@ module.exports = () => {
         ],
       }),
     ],
-
-
-
 
     module: {
       rules: [
