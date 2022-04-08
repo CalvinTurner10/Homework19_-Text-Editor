@@ -1,13 +1,7 @@
 {
-  "dependencies": {
-    "babel-loader": "^8.2.4",
-    "express": "^4.17.3",
-    "nodemon": "^2.0.15",
-    "server-js": "^0.1.4"
-  },
   "name": "homework19_-text-editor",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
     "start": "npm run build && cd server && node server.js",
@@ -16,24 +10,12 @@
     "install": "cd client && npm install",
     "client": "cd client && npm start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CalvinTurner10/Homework19_-Text-Editor.git"
+  "dependencies": {
+    "express": "^4.17.3",
+    "workbox-cacheable-response": "^6.5.2"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CalvinTurner10/Homework19_-Text-Editor/issues"
-  },
-  "homepage": "https://github.com/CalvinTurner10/Homework19_-Text-Editor#readme",
-  "description": "",
   "devDependencies": {
-    "html-webpack-plugin": "^5.5.0",
-    "icons-loader": "^0.0.6",
-    "webpack": "^5.72.0",
-    "webpack-cli": "^4.9.2",
-    "webpack-pwa-manifest": "^4.3.0",
-    "workbox-webpack-plugin": "^6.5.2"
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
   }
 }
